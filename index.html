@@ -1,0 +1,34 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home">
+                <h3 id="homeTitle">HOME</h3>
+                <h1 id="scorehome">0</h1>
+                <p><span id="redCardHome">0</span><span id="yellowCardHome">0</span><br></p>
+                <button onclick="counter()" class="boardButton">+1</button>
+                <button onclick="redCardHome()" class="boardButton" >Red</button>
+                <button onclick="yellowCardHome()" class="boardButton">Yellow</button>
+            </div>
+            <div class="middle-part">
+            <h3>Choose your team</h3>
+            <button onclick="netherlands()">The Netherlands vs Portugal</button><br>
+            <button onclick="germany()">Germany vs Belgium</button><br>
+            <button onclick="france()">France vs Poland</button><br>
+            <button onclick="italy()">Italy vs UK</button><br>
+            <button id="resetButton" onclick="reset()">Reset</button><br>
+            </div> 
+            <div class="guest">
+                <h3 id="guestTitle">GUEST</h3>
+                <h1 id="scoreguest">0</h1>
+                <p><span id="redCardGuest">0</span><span id="yellowCardGuest">0</span><br></p>
+                <button onclick="counter2()" class="boardButton">+1</button>
+                <button onclick="redCardGuest()" class="boardButton">Red</button>
+                <button onclick="yellowCardGuest()" class="boardButton">Yellow</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

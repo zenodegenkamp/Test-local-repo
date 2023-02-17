@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(font.ttf);
+}
+
+button {
+    background: linear-gradient(white, grey);
+    border: 1px solid white;
+    font-size: 10px;
+    padding: 5px 10px;
+    margin: 1% 5%;
+    border-radius: 5px
+}
+
+#redCardHome, #redCardGuest {
+    background-color: red;
+}
+
+#yellowCardHome, #yellowCardGuest {
+   background-color: yellow; 
+   color: black;
+   margin-left: 10px;
+}
+
+.cards {
+    display: inline;
+}
+
+.boardButton {
+    background-color: red;
+    padding: 7px 10px;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    margin: 5px 0 0 0;
+    font-size: 10px;   
+}
+
+#resetButton {
+    background: linear-gradient(white, red);
+}
+
+.middle-part {
+    background-image: url("https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2193&q=80");
+    background-size: cover;
+    width: 50%;
+    color: white;
+}
+
+#homeTitle, #guestTitle {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#scorehome, #scoreguest {
+    font-family: myFont;
+    background-color: black;
+    color: red;
+    text-align: center;
+    height: 80px;
+    width: 70%;
+    margin: 0px 15% 2% 15%;
+    font-size: 70px;
+    border-radius: 5px
+}
+
+.home, .guest {
+    padding-top: 0px;
+    background-color: #1b244a;
+    color: white;
+    border: 3px solid black;
+    width: 30%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+  
+}
